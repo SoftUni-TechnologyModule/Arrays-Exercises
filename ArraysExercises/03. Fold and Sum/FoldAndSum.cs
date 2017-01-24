@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03.Fold_and_Sum
 {
-    class Program
+    class FoldAndSum
     {
         static void Main(string[] args)
         {

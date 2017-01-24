@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _11.Equal_Sums
 {
-    class Program
+    class EqualSums
     {
         static void Main(string[] args)
         {

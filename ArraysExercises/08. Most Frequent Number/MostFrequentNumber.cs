@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08.Most_Frequent_Number
 {
-    class Program
+    class MostFrequentNumber
     {
         static void Main(string[] args)
         {

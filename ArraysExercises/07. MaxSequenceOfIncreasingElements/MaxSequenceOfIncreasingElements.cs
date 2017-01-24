@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _07.MaxSequenceOfIncreasingElements
 {
-    class Program
+    class MaxSequenceOfIncreasingElements
     {
         static void Main(string[] args)
         {

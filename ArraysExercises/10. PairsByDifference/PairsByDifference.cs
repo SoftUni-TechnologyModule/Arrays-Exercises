@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _10.PairsByDifference
 {
-    class Program
+    class PairsByDifference
     {
         static void Main(string[] args)
         {

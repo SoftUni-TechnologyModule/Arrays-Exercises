@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _05.Compare_Char_Arrays
 {
-    class Program
+    class CompareCharArrays
     {
         static void Main(string[] args)
         {

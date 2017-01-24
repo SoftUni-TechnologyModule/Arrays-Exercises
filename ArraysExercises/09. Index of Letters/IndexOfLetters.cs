@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _09.Index_of_Letters
 {
-    class Program
+    class IndexOfLetters
     {
         static void Main(string[] args)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _04.Sieve_of_Eratosthenes
 {
-    class Program
+    class SieveOfEratosthenes
     {
         static void Main(string[] args)
         {
