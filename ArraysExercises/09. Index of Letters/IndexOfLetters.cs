@@ -7,13 +7,14 @@ class IndexOfLetters
     static void Main()
     {
         char[] word = Console.ReadLine().ToLower().ToArray();
+        char[] alphabet = new char[26];
 
-        GetLettersIndex(word);
+        FillingAlphabetArray(alphabet);
+        GetLettersIndex(word, alphabet);
     }
 
-    static void GetLettersIndex(char[] word)
+    static char[] FillingAlphabetArray(char[] alphabet)
     {
-        char[] alphabet = new char[26];
         char firstLetter = 'a';
 
         for (int i = 0; i < alphabet.Length; i++, firstLetter++)
@@ -21,6 +22,11 @@ class IndexOfLetters
             alphabet[i] = firstLetter;
         }
 
+        return alphabet;
+    }
+
+    static void GetLettersIndex(char[] word, char[] alphabet)
+    {
         for (int i = 0; i < word.Length; i++)
         {
             for (int r = 0; r < alphabet.Length; r++)
