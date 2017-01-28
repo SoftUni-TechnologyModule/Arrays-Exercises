@@ -16,7 +16,7 @@ class MaxSequenceOfEqualElements
             if (numsArray[start] == numsArray[pos])
             {
                 len++;
-                
+
                 if (len > bestLenght)
                 {
                     bestLenght = len;
