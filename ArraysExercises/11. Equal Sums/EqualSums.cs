@@ -15,7 +15,6 @@ class EqualSums
         long leftSum = 0L;
         long rightSum = 0L;
         int arrayLength = numsArray.Length;       
-        //bool equalFound = false;
 
         if (arrayLength == 1)
         {
@@ -42,10 +41,6 @@ class EqualSums
         }
 
         Console.WriteLine("no");
-        //if (!equalFound)
-        //{
-        //    Console.WriteLine("no");
-        //}
     }
 }
 
